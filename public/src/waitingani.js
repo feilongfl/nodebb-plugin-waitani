@@ -14,8 +14,12 @@ var wait_ani_html = '<div class="ajaxifying-effect ">\n' +
 	'<div class="bubbles bubble-11"></div>\n' +
 	'</div>';
 
-$(window).on('action:ajaxify.end', function(data) {
+$(window).on('action:ajaxify.start', function(data) {
 	$("body").append(wait_ani_html);
+});
+
+$(window).on('action:ajaxify.end', function(data) {
+	$(".ajaxifying-effect").remove();
 });
 
 /*
