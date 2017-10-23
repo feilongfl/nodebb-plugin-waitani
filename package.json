@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "feilong",
+    "email": "feilongphone@gmail.com",
+    "url": "http://caucbb.pw/"
+  },
+  "bugs": {
+    "url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "NodeBB Plugin that allows users to show animation while wait.",
+  "homepage": "https://github.com/feilongfl/nodebb-plugin-waitani",
+  "keywords": [
+    "NodeBB",
+    "Plugin",
+    "wait animation"
+  ],
+  "license": "MIT",
+  "main": "library.js",
+  "name": "nodebb-plugin-waitani",
+  "nbbpm": {
+    "compatibility": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feilongfl/nodebb-plugin-waitani.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}

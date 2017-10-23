@@ -1,0 +1,61 @@
+.ajaxifying-effect {
+  z-index: 1000;
+  .fish {
+    position: fixed;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    animation: swim 3s infinite;
+  }
+
+  /* Bubbles */
+  .bubbles {
+    position: fixed;
+    bottom: 0;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: .50;
+    width: 40px;
+    height: 40px;
+    animation: up 4s infinite;
+  }
+
+  .bubble-1 {
+    left: 10px;
+    animation: up 7s infinite;
+  }
+
+  .bubble-2 {
+    left: 350px;
+    animation: up 2s infinite;
+  }
+...
+
+
+  /* Swim Animation */
+@keyframes swim {
+  0% {
+    transform: translateY(-50px) translateX(0) rotate(30deg);
+  }
+  25% {
+    transform: translateY(50px) translateX(250px) rotate(20deg);
+  }
+  50% {
+    transform: translateY(100px) translateX(500px);
+  }
+  75% {
+    transform: translateY(50px) translateX(850px) rotate(-20deg);
+  }
+  100% {
+    transform: translateY(-170px) translateX(1200px) rotate(-40deg);
+  }
+}
+
+  /* Bubbles Animation */
+  @keyframes up {
+    100% {
+      transform: translateY(-1100px);
+    }
+  }
+}

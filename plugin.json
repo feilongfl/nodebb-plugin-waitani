@@ -1,0 +1,19 @@
+{
+	"id": "nodebb-plugin-waitani",
+	"name": "NodeBB waiting animation Plugin",
+	"description": "NodeBB Plugin that allows users to show animation while wait.",
+	"url": "https://github.com/feilongfl/nodebb-plugin-waitani.git",
+	"library": "./library.js",
+	"less": [
+		"waiting-ani.less"
+	],
+	"staticDirs": {
+		"lib": "public/src"
+	},
+	"scripts": [
+		"public/src/waiting-ani-o.js"
+	],
+	"hooks": [
+		{ "hook": "filter:scripts.get", "method": "addScripts", "callbacked": true }
+	]
+}
