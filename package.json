@@ -1,4 +1,25 @@
 {
+  "_from": "git+https://github.com/feilongfl/nodebb-plugin-waitani.git",
+  "_id": "nodebb-plugin-waitani@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-DOdfD1bmtsXqntGFHw0xUhlyHlM=",
+  "_location": "/nodebb-plugin-waitani",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/feilongfl/nodebb-plugin-waitani.git",
+    "rawSpec": "https://github.com/feilongfl/nodebb-plugin-waitani.git",
+    "saveSpec": "git+https://github.com/feilongfl/nodebb-plugin-waitani.git",
+    "fetchSpec": "https://github.com/feilongfl/nodebb-plugin-waitani.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/feilongfl/nodebb-plugin-waitani.git#50637a1dcb0060d271503b613f3d60087d7778fd",
+  "_spec": "https://github.com/feilongfl/nodebb-plugin-waitani.git",
+  "_where": "E:\\nodebb\\NodeBB",
   "author": {
     "name": "feilong",
     "email": "feilongphone@gmail.com",

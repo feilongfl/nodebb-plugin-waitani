@@ -11,7 +11,7 @@
 		"lib": "public/src"
 	},
 	"scripts": [
-		"public/src/waiting-ani-o.js"
+		"public/src/waitingani.js"
 	],
 	"hooks": [
 		{ "hook": "filter:scripts.get", "method": "addScripts", "callbacked": true }
