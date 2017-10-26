@@ -15,7 +15,7 @@ var wait_ani_html = '<div class="ajaxifying-effect ">\n' +
 	'</div>';
 
 $(window).on('action:ajaxify.start', function(data) {
-	$("body").append(wait_ani_html);
+	$("main").append(wait_ani_html);
 });
 
 $(window).on('action:ajaxify.end', function(data) {
